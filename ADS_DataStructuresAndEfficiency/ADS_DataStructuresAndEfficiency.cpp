@@ -4,6 +4,20 @@
 #include <list>
 #include <vector>
 
+//a little demo class to play with list<Student*>
+class Student {
+private:
+    int age;
+    string name;
+public:
+    Student(string name, int age) : name(name), age(age) {};
+
+    friend ostream& operator<<(ostream& os, const Student& s) {
+        os << s.name << ", " << s.age;
+        return os;
+    }
+};
+
 //function declarations
 void demoOperatorAndCopyConstructor();
 void demoEmplace();

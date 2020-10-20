@@ -17,19 +17,19 @@ int main()
     cout << endl << "********************demoOperatorAndCopyConstructor********************" << endl;
     demoOperatorAndCopyConstructor();
 
-    cout << endl << "********************demoInefficiencyOfCopiesAndDataStructures********************" << endl;
+    cout << endl << "******************** demoInefficiencyOfCopiesAndDataStructures ********************" << endl;
     demoInefficiencyOfCopiesAndDataStructures();
 
-    cout << endl << "********************demoEfficiencyOfPointersAndDataStructures********************" << endl;
+    cout << endl << "******************** demoEfficiencyOfPointersAndDataStructures ********************" << endl;
     demoEfficiencyOfPointersAndDataStructures();
 
-    cout << endl << "********************demoEmplaceBack********************" << endl;
+    cout << endl << "******************** demoEmplaceBack ********************" << endl;
     demoEmplaceBack();
 
-    cout << endl << "********************demoEmplace********************" << endl;
+    cout << endl << "******************** demoEmplace ********************" << endl;
     demoEmplace();
 
-    cout << endl << "********************exerciseEmplace********************" << endl;
+    cout << endl << "******************** exerciseEmplace ********************" << endl;
     exerciseEmplace();
 }
 
